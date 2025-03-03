@@ -35,39 +35,52 @@ healthcare-translation-app2/
 ```bash
 git clone https://github.com/your-username/healthcare-translation-app2.git
 cd healthcare-translation-app2
+```
+
 
 Step 2: Set Up a Virtual Environment
+
 Create a virtual environment:
+```bash
 python -m venv venv
 Activate the virtual environment:
-
+```
 On macOS/Linux:
+```bash
 source venv/bin/activate
-On Windows:
+```
 
+On Windows:
+```bash
 venv\Scripts\activate
+```
+
 Step 3: Install Dependencies
 Install the required Python packages:
-
+```bash
 pip install -r requirements.txt
+```
 Step 4: Set Up Environment Variables
 Create a .env file in the root directory:
-
+```bash
 OPENAI_API_KEY=your-openai-api-key-here
+```
 Replace your-openai-api-key-here with your actual OpenAI API key.
 
 Step 5: Run the Flask App
 Start the Flask development server:
-
+```bash
 python app.py
+```
 Open your browser and go to:
 
 http://127.0.0.1:5000
 Deployment on Vercel
 Step 1: Install Vercel CLI
 If you haven't already, install the Vercel CLI:
-
+```bash
 npm install -g vercel
+```
 Step 2: Deploy the App
 Log in to Vercel:
 
