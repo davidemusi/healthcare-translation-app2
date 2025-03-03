@@ -10,18 +10,18 @@ A web-based prototype for real-time multilingual translation between patients an
 
 ## Project Structure
 healthcare-translation-app2/
-├── venv/ # Virtual environment folder
-├── app.py # Flask backend
-├── requirements.txt # Python dependencies
-├── templates/ # HTML templates
-│ └── index.html # Main frontend page
-├── static/ # Static files (CSS, JS)
-│ ├── styles.css # Custom styles
-│ └── script.js # Frontend logic
-├── .env # Environment variables (e.g., OpenAI API key)
-├── .gitignore # Files to ignore in version control
-├── README.md # Documentation
-└── vercel.json # Vercel deployment configuration
+- ├── venv/ # Virtual environment folder
+- ├── app.py # Flask backend
+- ├── requirements.txt # Python dependencies
+- ├── templates/ # HTML templates
+- │ └── index.html # Main frontend page
+- ├── static/ # Static files (CSS, JS)
+- │ ├── styles.css # Custom styles
+- │ └── script.js # Frontend logic
+- ├── .env # Environment variables (e.g., OpenAI API key)
+- ├── .gitignore # Files to ignore in version control
+- ├── README.md # Documentation
+- └── vercel.json # Vercel deployment configuration
 
 
 ## Setup Instructions
